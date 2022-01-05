@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+h1, h2{
+    color: brown;
+}
+
+.main{
+    color: rgb(0, 0, 0);
+}
+
+.main-text{
+    color: darkgreen;
+}
+
+.main-text .text_1{
+    font-size: 20px;
+    color: darkblue;
+}
+
+#class_1{
+    color: gold;
+}
+
+.test-text{
+    color: grey;
+}
+
+.text_2{
+    color: hotpink;
+}
+
+span{
+    color: lime;
+}
+
+span.blue-span{
+    color: mediumblue;
+}
+
+footer{
+    color: rgb(238, 255, 2);
+}
+
+
+* a{
+    color: forestgreen;
+}
+.footer-test > a{
+    color: blue;
+}
