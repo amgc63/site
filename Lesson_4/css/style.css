@@ -1,0 +1,137 @@
+/* &display=swap&subset=cyrillic-ext */
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap&display=swap&subset=cyrillic-ext');
+
+@font-face {
+    font-family: 'Comforter';
+    src: url('../fonts/Comforter-Regular.woff') format('woff2'),
+        url('../fonts/Comforter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	background-color: rgba(106, 155, 156, 0.507);
+}
+
+.block_one{
+	background-color: chartreuse;
+    color:#8a2be2;
+	text-shadow: 5px 2px 1px rgb(202, 20, 20);
+    font-size: 35px;
+	padding: 50px 0px;
+    font-family: 'Fredoka One', cursive;
+	text-align: justify;
+}
+
+.block_two{
+	color:coral;
+	font-size: 45px;
+	background-color: rgba(100, 148, 237, 0.5);
+	font-family: 'Comforter';
+	padding: 10px 10px 10px 10px;
+}
+
+.block_three{
+	margin: 10px 0px;
+	background-color: #a52a2a;
+	font-weight: 900;
+	text-align: right;
+	letter-spacing: 3px;
+}
+
+.block_four{
+	background-color: #5d595d;
+	font-size: 27px;
+	color:rgb(11, 11, 243);
+	font-style: oblique;
+	text-align: center;
+	padding: 10px 10px;
+	margin: 0px 0px 30px 0px;
+}
+
+.image{
+	padding: 10px 10px;
+	background-color: #4eee04;
+}
+
+.right{
+	text-align: right;
+	font-size: 20px;
+	color: rgba(251, 2, 2, 0.609);
+	text-decoration: underline;
+}
+
+a.link{
+	text-decoration: underline;
+}
+
+.test{
+	text-decoration: line-through;
+	color: rgba(134, 130, 130, 0.609);
+}
+
+.price_two{
+	text-decoration: underline;
+	color: rgba(240, 22, 22, 0.609);
+	font-weight: 800;
+	text-shadow: 5px 2px 1px #000;
+}
+
+.block_five{
+	background-color: #2e8b57;
+	font-weight: bold;
+	font-size: 40px;
+	color: #87ceeb;
+	line-height: 55px;
+	padding: 35px 25px;
+	text-shadow: 1px 2px 1px rgb(202, 20, 20);
+	font-style: italic;
+	text-decoration: line-through;
+}
