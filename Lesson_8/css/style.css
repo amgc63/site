@@ -1,0 +1,260 @@
+/*&display=swap&subset=cyrillic-ext*/
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	font-size: 14px;
+	color: #252b42;
+	font-weight: 500;
+	font-family: Montserrat;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	background-color: #524d4d;
+	padding: 30px;
+}
+
+.zagolovok{
+	font-size: 30px;
+	text-shadow: 4px 2px 2px red;
+	color: #030303;
+	text-align: center;
+	font-weight: 900;
+	margin: 0px 0px 40px 0px;
+}
+
+.block{
+	margin: 2% 10%;
+	padding: 30px;
+	background-color: #082c17;
+}
+
+.block:hover .link{
+	opacity: 1;
+	visibility: visible;
+}
+
+.link{
+	display: block;
+	text-align: center;
+	padding: 15px;
+	font-size: 30px;
+	color: #f2f600;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.link:hover {
+	color: #ff0000;
+}
+
+.link:active{
+	color:#00ffff;
+}
+
+.block_two{
+	padding: 30px;
+	width: 100%;
+	height: 90px;
+	font-size: 30px;
+	background-color: red;
+	text-align: center;
+}
+
+.link_two:visited {
+	color: chartreuse;
+}
+
+.link_two:focus{
+	outline: 2px solid rgb(5, 5, 5);
+	color: aqua;
+}
+
+.window{
+	background-color: rgb(207, 20, 198);
+	padding: 15px;
+	font-size: 25px;
+	display: none;
+	margin-bottom: 20px;
+}
+
+.link_three{
+	height: 55px;
+	width: 200px;
+	margin: 15px 15px;
+	display: inline-block;
+	font-size: 50px;
+	outline: 3px solid red;
+}
+
+.link_three:hover{
+	color:rgb(207, 20, 198);
+}
+
+.link_three:active{
+	color: #f2f600;
+}
+
+.window:target{
+	display: block;
+}
+
+.list{
+	font-size: 25px;
+	color: #ff0000;
+}
+
+.list_one:hover{
+	color: magenta;
+}
+
+.list_two:hover{
+	color: rgb(15, 240, 101);
+}
+
+.list_three:hover{
+	color: rgb(8, 8, 8);
+}
+
+.list_four:hover{
+	color: rgb(236, 213, 0);
+}
+
+.list_five:hover{
+	color: rgb(5, 9, 236);
+}
+
+.text{
+	font-size: 35px;
+	color: rgb(0, 0, 0);
+	margin: 15px 15px;
+}
+
+/* Певдокласы положения в коде */
+
+
+.text p{
+	margin: 0px 0px 50px 0px;
+}
+
+.text{
+}
+
+.list{
+}
+
+.list li{
+	margin: 0px 0px 20px 0px;
+}
+
+.text p:first-child{
+	color: #f2f600;
+}
+
+.text_two{
+	font-size: 25px;
+	margin: 15px 15px;
+}
+
+.text_two p{
+	margin: 0px 0px 20px 0px;
+}
+
+.text_two *:last-of-type{
+	color: #09ff00;
+}
+
+.text_two *:last-child{
+	margin-bottom: 0;
+}
+
+.text_two p:nth-child(10):hover{
+	color:rgb(222, 246, 6);
+}
+
+/* =================================================== */
+
+.block_three{
+	font-size: 25px;
+	color: #030303;
+	margin: 20px 0px 20px 0px;
+}
+
+.block_three{
+	text-indent: 30px;
+}
+
+.block_three::first-letter{
+	color: red;
+	font-size: 30px;
+}
+
+.title{
+	font-size: 35px;
+	font-weight: 900;
+	display: inline-block;
+}
+
+.title::after{
+	background-color:aqua;
+	height: 2px;
+	width: 90%;
+	margin: 5px 0px 0px 0px;
+	content: "";
+	display: block;
+}
+
+.list li::before{
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-color: #0ce0b2;
+	margin-right: 15px;
+	border-radius: 50%;
+}
+
+.list li:hover::before{
+	background-color: #0400f5;
+}
+
